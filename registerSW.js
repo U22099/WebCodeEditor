@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/webcodeeditor/sw.js', { scope: '/webcodeeditor/' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/WebCodeEditor/sw.js', { scope: '/WebCodeEditor/' })})}
